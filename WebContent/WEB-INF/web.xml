@@ -5,6 +5,10 @@
   <servlet>
     <servlet-name>xmlServlet</servlet-name>
     <servlet-class>com.rahul.servlet.XmlServlet</servlet-class>
+    <init-param>
+    	<param-name>default</param-name>
+    	<param-value>SRK</param-value>
+    </init-param>
   </servlet>
   
   <servlet-mapping>

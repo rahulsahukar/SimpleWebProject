@@ -21,9 +21,9 @@ public class XmlServlet extends HttpServlet {
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		response.setContentType("text/html");
 		
-//		String userName = request.getParameter("userName");
-//		
-//		PrintWriter printWriter = response.getWriter();
-//		printWriter.println("Post - Hello "+userName+"!!!");
+		String userName = request.getParameter("userName");
+		
+		PrintWriter printWriter = response.getWriter();
+		printWriter.println("Post - Hello "+userName+"!!!");
 	}
 }
